@@ -1,0 +1,107 @@
+.form{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h1{
+    margin-left: 10px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form__input input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+.form__input input+input{
+    margin-left: 10px;
+}
+
+.form__content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.form__receiptCheck{
+    align-self: flex-start;
+    width: 20px;
+    height: 20px;
+}
+
+.form__checkbox{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form__checkbox label{
+    font-family: "Montserrat";
+    margin-left: 10px;
+}
+
+
+.form__email{
+    margin-top: 15px;
+    height: 30px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding: 10px;
+}
+
+button{
+    padding: 15px;
+    font-family: "Montserrat";
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid blue;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+button[disabled]{
+    opacity: 0.5;
+}
+
+.form__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.form__bottom h2{
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.form__reset{
+    align-self: flex-end;
+    cursor: pointer;
+    color: red;
+}

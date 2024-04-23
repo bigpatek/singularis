@@ -1,0 +1,20 @@
+.header{
+    display:flex;
+    justify-content: flex-start;
+    height: 60px;
+    width: 100%;
+    align-items:center;
+    background-color: blue ;
+}
+.header h1{
+    margin-left: 10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: white;
+}
+
+.header span{
+    margin-left: 15px;
+    font-size: 35px;
+    color: white;
+}
